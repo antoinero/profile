@@ -2,6 +2,14 @@
 element.style {
 }
 
+body {
+    background: #233138;
+    color: #041716;
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
 .container {
     width: 700px;
     margin: 40px auto;
@@ -26,16 +34,6 @@ element.style {
   }
 }
 
-.list-inline > li {
-  display: inline-block;
-  padding: 0px 20px;
-}
-
-.list-inline {
-    list-style: none;
-    padding-left: 0px;
-}
-
 .card-black {
     background-color: black;
     color: #233138;
@@ -48,6 +46,15 @@ element.style {
     text-align: center;
 }
 
+.list-inline > li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
 
 h1 {
     color: #233138;
@@ -64,20 +71,11 @@ h2 {
     font-weight: 500;
 }
 
-h1, h2, h3 {
+h1, h2, h3, a{
     font-family: 'Roboto', sans-serif;
-}
-
-body {
-    background: #233138;
-    color: #041716;
-    font-family: 'Lora', serif;
-    font-size: 16px;
-    font-weight: lighter;
 }
 
 a {
-    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     color: #233138;
     font-weight: 600;
