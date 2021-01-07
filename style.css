@@ -36,18 +36,21 @@ element.style {
     padding-left: 0px;
 }
 
-.card-white {
-    background-color: white;
-    padding: 20px;
+.card-black {
+    background-color: black;
+    color: #233138;
+    font-family: 'Roboto', sans-serif;
+    padding: 30px;
+    padding-bottom: : 50px;
     box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
-    border-radius: 4px;
+    border-radius: 20px;
     margin: 10px 0px;
     text-align: center;
 }
 
 
 h1 {
-    color: ##041716;
+    color: #233138;
     font-size: 32px;
     font-weight: bolder;
     font-weight: 900;
@@ -55,7 +58,7 @@ h1 {
 
 
 h2 {
-    color: ##041716;
+    color: #233138;
     font-size: 20px;
     font-weight: normal;
     font-weight: 500;
@@ -66,7 +69,7 @@ h1, h2, h3 {
 }
 
 body {
-    background: grey;
+    background: #233138;
     color: #041716;
     font-family: 'Lora', serif;
     font-size: 16px;
@@ -76,7 +79,7 @@ body {
 a {
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    color: ##041716;
+    color: #233138;
     font-weight: 600;
     font-size: 16px;
 }
@@ -92,7 +95,7 @@ a:hover {
     color: white;
     padding: 15px 20px;
 
-    border-radius:50%;
+    border-radius:20%;
 }
 
 p {
@@ -111,9 +114,9 @@ img[Attributes Style] {
     width: 200px;
 }
 
-/*.img-circle {
-    border-radius:20%;
-}*/
+.img-circle {
+    border-radius:50%;
+}
 
 ul {
     display: block;
