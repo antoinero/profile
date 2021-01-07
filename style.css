@@ -26,6 +26,9 @@ element.style {
   }
 }
 
+.img-circle {
+    border-radius: 50%;
+}
 
 .list-inline > li {
   display: inline-block;
